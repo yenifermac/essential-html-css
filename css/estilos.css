@@ -22,7 +22,7 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/fondohero.png);
+  background-image: linear-gradient(to top, #2d63f89d, transparent), url(../img/fondohero1.jpg);
   /* background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/webdeveloper.jpg); */
   background-repeat: no-repeat;
   background-position: center;
@@ -31,10 +31,12 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 25px;
   margin-block-start: 20px;
   margin-block-end: 16px;
   font-weight: normal;
+  text-align: center;
+  
 }
 
 /* h1 + p {
@@ -48,7 +50,7 @@ hr {
 }
 
 h2 {
-  text-shadow: 7px 4px 5px blueviolet;
+  text-shadow: 7px 4px 5px rgb(118, 110, 255);
   font-size: 2em;
   margin-block-start: 64px;
   margin-block-end: 40px;
@@ -144,13 +146,13 @@ nav details summary {
 }
 
 pre {
-  background-color: #FEC62E;
+  background-color: #96befa;
   padding-block-start: 40px;
   padding-block-end: 40px;
   padding-inline-start: 40px;
   font-family: var(--headline1);
   line-height: 24px;
-  border: 8px solid #5551FF;
+  border: 8px solid #020080;
   border-radius: 8px;
   box-shadow: -10px 10px 0 0 #ABAAF6;
   margin-block-end: 30px;
@@ -274,7 +276,7 @@ blockquote span::before {
     line-height: 24px;
   }
   h1 {
-    text-shadow: 7px 4px 5px blueviolet;
+    text-shadow: 7px 4px 5px rgb(60, 109, 243);
     font-size: 60px;
     margin-block-start: 64px;
   }
