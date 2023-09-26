@@ -121,6 +121,13 @@ nav details summary {
   counter-increment: titleList;
   padding-block-end: 8px;
 }
+.description{
+
+  text-align: center;
+  padding-top: 7%;
+  
+  
+}
 
 .section-content h3::before {
   content: "" counter(titleList) ". ";
